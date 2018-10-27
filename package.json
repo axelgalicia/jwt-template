@@ -1,0 +1,34 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "JWT App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start-dev": "node index.js",
+    "start-prod": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelgalicia/jwt-template.git"
+  },
+  "author": "Axel Galicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelgalicia/jwt-template/issues"
+  },
+  "homepage": "https://github.com/axelgalicia/jwt-template#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.6"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
